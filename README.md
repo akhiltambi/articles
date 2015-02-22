@@ -63,11 +63,8 @@ That's it! Your application should be running.
 ## Getting Started With Articles
 Articles application is based on the MVC provided by MEAN.JS. So there is a lot of stuff to understand. Hence We recommend you go over the [Official Documentation](http://meanjs.org/docs.html).
 
-## Live Example
-Browse the live MEAN.JS example on [http://meanjs.herokuapp.com](http://meanjs.herokuapp.com).
-
 ## Credits
-Inspired by the service provided by [MEAN.JS](http://meanjs.org)
+Inspired by the service provided by [MEAN.JS](http://meanjs.org).
 
 ## License
 (The MIT License)

@@ -4,7 +4,7 @@
 angular.module('core').controller('HomeController', ['$scope', 'Authentication',
 	function($scope, Authentication) {
 		// This provides Authentication context.
-		$scope.authentication = Authentication;
+		
 
 
       var player;
@@ -35,6 +35,7 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
       function stopVideo() {
         player.stopVideo();
       }
-      $scope.player=player;
+    $scope.player=player;
+    $scope.authentication = Authentication;
 	}
 ]);

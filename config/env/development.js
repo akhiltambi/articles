@@ -2,7 +2,7 @@
 
 module.exports = {
 	db: {
-		uri: 'mongodb://localhost/articleDB',
+		uri: 'mongodb://mean:password@ds052827.mongolab.com:52827/articledb',//mongodb://localhost/articleDB',
 		options: {
 			user: '',
 			pass: ''

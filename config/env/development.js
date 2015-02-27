@@ -2,7 +2,7 @@
 
 module.exports = {
 	db: {
-		uri: 'mongodb://mean:password@dbh45.mongolab.com:27457/articledb',//localhost/articleDB',//',
+		uri: 'mongodb://localhost/articleDB',//',mean:password@dbh45.mongolab.com:27457/articledb',//
 		options: {
 			user: '',
 			pass: ''
@@ -21,8 +21,8 @@ module.exports = {
 		title: 'Free Article Spot'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || 'APP_ID',
-		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
+		clientID: process.env.FACEBOOK_ID || '340475982815685',
+		clientSecret: process.env.FACEBOOK_SECRET || '7ad06087022bebb01c4d5fbc5e503da1',
 		callbackURL: '/auth/facebook/callback'
 	},
 	twitter: {
